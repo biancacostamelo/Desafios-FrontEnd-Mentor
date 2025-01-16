@@ -1,0 +1,109 @@
+:root {
+    --gradient-color: linear-gradient(#7857ff, #2e2be9);
+    --gradient-color2: linear-gradient(#4e21ca, #2421ca00);
+}
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+*{
+    font-family: 'Hanken Grotesk';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.content1{
+    background: var(--gradient-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;   
+    height: 408px;
+    padding: 20px;
+    border-radius: 20px 0px 0px 20px;
+}
+.content1 p, h1, h2{
+    color: aliceblue;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 250px;  
+    height: 408px; 
+    padding: 20px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: #0000001a 5px 5px 15px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 55px;
+    padding: 0px 10px 0px 10px;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    background: var(--gradient-color2);
+}
+.result p, h1{
+    padding: 0;
+    margin: 0;
+    color: aliceblue ;
+}
+.result h1{
+    font-size: 35pt;
+}
+.result p{
+    color: rgba(240, 248, 255, 0.664);
+}
+.paragraph p > span{
+    color: rgba(0, 0, 0, 0.452);
+}
+.paragraph p {
+    font-weight: 600;
+    color: #242344e0;
+}
+#card1{
+    color: #ff5757;
+    background-color: #ff57572d;
+}
+#card2{
+    color: #ffb01f;
+    background-color: #ffb11f1c;
+}
+#card3{
+    color: #00bd91;
+    background-color: #00bd9123;
+}
+#card4{
+    color: #1125d4;
+    background-color: #1124d41f;
+}
+button{
+    background-color: #232330;
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 10px;
+}
+.divLeft{
+    display: flex;
+    gap: 5px;
+}

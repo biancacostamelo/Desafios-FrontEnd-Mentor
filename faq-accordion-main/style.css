@@ -1,0 +1,111 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+@font-face {
+    font-family: 'Work-Sans';
+    src: url(assets/fonts/static/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Work-Sans-Bold';
+    src: url(assets/fonts/static/WorkSans-Bold.ttf);
+}
+
+*{
+    font-family: 'Work-Sans';
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    position: relative;
+    width: auto;
+    background: url(/faq-accordion-main/assets/images/background-pattern-desktop.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.areaAsk{
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--Light-pink);
+    margin: 0;
+}
+
+.areaRes{
+    display: none;
+    margin: 20px 0px 20px 0px;
+}
+
+.areaResBlock{
+    display: block;
+    margin: 20px 0px 20px 0px;
+}
+
+.card{
+    background-color: var(--White);
+    padding: 30px;
+    border-radius: 20px;
+    width: 600px;
+}
+
+@media (max-width: 672px) {
+    .card{
+        width: auto;
+        margin: 10px;
+    }
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Work-Sans-Bold';
+    color: var(--Dark-purple);
+}
+
+.areaAsk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    border-bottom: 1px solid #0000001e;
+    font-weight: 600;
+}
+
+
+button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    color: rgb(124, 0, 161);
+}

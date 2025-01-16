@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'outfit';
+    src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: 'young';
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+*{
+    font-family: 'outfit';
+}
+h1{
+    font-family: 'young';
+    margin-top: 50px;
+}
+h2{
+    font-family: 'young';
+    color: brown;
+    margin-top: 50px;
+}
+h3{
+    color: rgb(131, 11, 81);
+}
+.imgHome{
+    background-image: url(/assets/images/image-omelette.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 70vh;
+    width: auto;
+    background-color: aqua;
+}
+.preparation{
+    padding: 40px;
+    background-color: rgba(255, 192, 203, 0.164);
+    border-radius: 20px;
+}
+li{
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+td{
+    padding: 15px !important;
+    margin-bottom: 5px !important;
+}
+.home, .preparation, .ingredients, .instructions, .nutrition{
+    margin-bottom: 50px;
+}
+@media (max-width: 1194px) {
+    .imgHome {
+        height: 400px !important;
+    }
+}
+@media (max-width: 740px) {
+    .imgHome {
+        height: 190px !important;
+    }
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

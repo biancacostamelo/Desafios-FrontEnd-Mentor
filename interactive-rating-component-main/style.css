@@ -35,7 +35,7 @@ body{
     background-color: var(--Very-Dark-Blue);
 }
 
-.card1{
+#card1{
     background-color: var(--Dark-Blue);
     width: 420px;
     gap: 10px;
@@ -46,12 +46,12 @@ body{
     border-radius: 20px;
 }
 
-.card1 h2{
+#card1 h2{
     color: var(--White);
     font-weight: 700;
 }
 
-.card1 p{
+#card1 p{
     color: var(--Light-Grey);
     font-weight: 400;
     font-size: 15px;

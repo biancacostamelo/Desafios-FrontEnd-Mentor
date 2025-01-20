@@ -4,6 +4,9 @@
 ## Interface para exibir dados JSON com design responsivo e leitura fácil.
 ![desktop-design](https://github.com/user-attachments/assets/95014e37-2876-44d1-9399-5e68376655b1)
 
+## Interface interativa com javascript para feedback.
+![desktop-design](interactive-rating-component-main/design/desktop-design.jpg)
+
 ## Página estática de receitas, estilizada com CSS e estrutura básica em HTML.
 ![desktop-design](https://github.com/user-attachments/assets/c34ca798-0bcb-4e23-b126-145f36c096f6)
 

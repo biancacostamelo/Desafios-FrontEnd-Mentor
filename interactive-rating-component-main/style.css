@@ -78,7 +78,7 @@ body{
     color: var(--Very-Dark-Blue);
 }
 
-.buttons button:active{
+.buttons button:focus{
     background-color: var(--White);
     color: var(--Very-Dark-Blue);
 }
@@ -105,12 +105,12 @@ body{
     border-radius: 20px;
 }
 
-.card2{
+#card2{
     background-color: var(--Dark-Blue);
     width: 380px; /**/
     gap: 25px; /**/
     padding: 40px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center; /**/
     justify-content: center;
@@ -118,12 +118,12 @@ body{
     text-align: center; /**/
 }
 
-.card2 h2{
+#card2 h2{
     color: var(--White);
     font-weight: 700;
 }
 
-.card2 p{
+#card2 p{
     color: var(--Light-Grey);
     font-weight: 400;
     font-size: 15px;
@@ -136,4 +136,12 @@ body{
     padding: 3px 20px 3px 20px;
     font-size: 13px;
     font-weight: 300;
+}
+
+#card2 button{
+    background-color: transparent;
+    width: 50%;
+    border: 1px solid var(--Gray-Transparent);
+    color: var(--Orange);
+    border-radius: 15px;
 }

@@ -13,12 +13,12 @@
 ## Componente de cartão de visualização do produto
 ![desktop-design](product-preview-card-component-main/design/desktop-design.jpg)
 
-
 ## Card estilizado exibindo informações de redes sociais, com layout responsivo e minimalista.
 ![destkop-design](https://github.com/user-attachments/assets/a9852058-b7f7-4307-a440-9ba277b07000)
 
 ## Componente básico de card, ideal para destacar informações com design limpo e responsivo.
 ![desktop-design](https://github.com/user-attachments/assets/6e5e9525-5d61-4d66-b038-2187df387826)
 
-
+## Componente básico de card, ideal para QR codes
+![desktop-design](qr-code-component-main\images\image.png)
 
